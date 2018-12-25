@@ -17,11 +17,6 @@ hr {
     margin: 0 auto;
 }
 
-table {
-    width: 100%;
-    padding-top: 10px;
-}
-
 form {
     width: 100%;
     margin: 1rem auto;
@@ -42,27 +37,6 @@ textarea {
 	resize: vertical;
     background: #e6e6e6;
     border: 1px solid #c5c5c5;
-}
-
-label.file {
-    position: relative;
-    display: block;
-    width: 50%;
-    text-align: center;
-    border: 2px dashed #ccc;
-    color: #989898;
-    margin: 20 0;
-    font-size: 86%;
-    padding: 50px;
-}
-
-label.file:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-label.file:active,
-label.file.focus {
-    border-color: #09f;
 }
 
 input[type=file] {
@@ -97,17 +71,4 @@ button:active {
 h1 {
     color: #6b6b6b;
     font-weight: 100;
-}
-
-.error {
-    color: #fff;
-    width: 100%;
-    padding: 10px;
-    display: block;
-    font-size: 14px;
-    background: #666666;
-}
-
-.error p {
-    padding-left: 15px;
 }
